@@ -1,12 +1,9 @@
 <script>
   export let text = "";
-
-  const test = () => {
-    console.log("HI");
-  };
+  export let onClick;
 </script>
 
-<button on:click={test}>
+<button on:click={onClick}>
   {text}
 </button>
 

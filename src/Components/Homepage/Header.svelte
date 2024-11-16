@@ -1,5 +1,6 @@
 <script>
     import Button from "../../SimpleElements/Button.svelte";
+    import { openWA } from "../../Helper.js";
 </script>
 
 <div class="header-container">
@@ -9,13 +10,13 @@
             <img src="./src/assets/logo.png" alt="logo" width="100px" />
             <span class="header-menu-left-logo-text">EDELWEISS</span>
         </div>
-        <div class="header-menu-right">
+        <!-- <div class="header-menu-right">
             <span class="header-menu-item">SALON</span>
             <span class="header-menu-item">SERVICES</span>
             <span class="header-menu-item">PREISE</span>
             <span class="header-menu-item">KONTAKT</span>
-            <Button text="Termin buchen"></Button>
-        </div>
+            <Button text="Termin buchen" onClick={openWA}></Button>
+        </div> -->
     </div>
     <div class="header-center">
         <div>Dein Hund ist wieder</div>
@@ -23,7 +24,7 @@
     </div>
     <div class="header-bottom">
         <div>Dann ab zum Hundesalon Edelweiss in Bad König-Zell!</div>
-        <Button text="Termin buchen"></Button>
+        <Button text="Termin buchen" onClick={openWA}></Button>
     </div>
 </div>
 
@@ -59,7 +60,7 @@
 
     .header-menu-left {
         display: flex;
-        width: 50%;
+        /* width: 50%; */
         flex-wrap: wrap;
         flex-direction: row;
         gap: 10px;
