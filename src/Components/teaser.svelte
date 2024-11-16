@@ -1,0 +1,33 @@
+<script>
+    export let backgroundUrl = "";
+    export let text1 = "";
+    export let text2 = "";
+</script>
+
+<div class="teaser" style="background-image: url({backgroundUrl});">
+    <div>{text1}</div>
+    <div>{text2}</div>
+</div>
+
+<style>
+    .teaser {
+        height: 175px;
+        line-height: 40px;
+        position: relative;
+        background-size: cover;
+        /* background-position: center center; */
+        background-position: center -270px;
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: white;
+        font-size: 2rem;
+        padding-inline: -60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(1, 1, 1, 0.6);
+        background-blend-mode: darken;
+    }
+</style>

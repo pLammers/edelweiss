@@ -69,6 +69,7 @@
 
     .header-menu-left-logo-text {
         padding-top: 40px;
+        font-family: "wrath";
     }
 
     .header-menu-right {
