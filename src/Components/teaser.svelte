@@ -15,14 +15,11 @@
         line-height: 40px;
         position: relative;
         background-size: cover;
-        /* background-position: center center; */
         background-position: center -270px;
         text-align: left;
-        padding-left: 50px;
-        padding-right: 50px;
         color: white;
         font-size: 2rem;
-        padding-inline: -60px;
+        padding: 60px;
         display: flex;
         flex-direction: column;
         align-items: center;
