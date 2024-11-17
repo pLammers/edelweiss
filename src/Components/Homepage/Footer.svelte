@@ -13,7 +13,6 @@
             <div class="text-content">Marion Kabus</div>
 
             <br />
-            <br />
 
             <div class="text-header">Termin buchen:</div>
             <div class="text-content">
@@ -43,7 +42,6 @@
                 </a>
             </div>
 
-            <br />
             <br />
 
             <div class="text-header">Termin buchen:</div>
@@ -84,12 +82,17 @@
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+
+        @media only screen and (max-width: 1500px) {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
 
     .logo {
         position: absolute;
         width: 150px;
-        top: 80px;
+        top: 40px;
     }
 
     .footer-headline {
@@ -104,7 +107,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 40px;
     }
 
     .footer-contact-information {

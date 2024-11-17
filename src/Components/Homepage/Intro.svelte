@@ -169,5 +169,11 @@
         padding-top: 165px;
         padding-bottom: 50px;
         gap: 35px;
+
+        @media only screen and (max-width: 1500px) {
+            padding-top: 125px;
+            padding-bottom: 45px;
+            gap: 30px;
+        }
     }
 </style>

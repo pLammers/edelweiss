@@ -11,7 +11,7 @@
 
 <style>
     .teaser {
-        height: 175px;
+        height: 80px;
         line-height: 40px;
         position: relative;
         background-size: cover;
