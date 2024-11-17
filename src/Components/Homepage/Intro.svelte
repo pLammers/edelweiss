@@ -25,14 +25,14 @@
                 </div>
                 <img
                     class="intro-block1-image"
-                    src="./src/assets/ziegen1.png"
+                    src="./assets/ziegen1.png"
                     alt="ziege"
                 />
             </div>
             <div class="intro-block end">
                 <img
                 class="intro-block2-image"
-                src="./src/assets/marion_hund.png"
+                src="./assets/marion_hund.png"
                 alt="ziege"
             />
                 <div class="intro-headline">Deine Hundefriseurin in Zell!</div>
@@ -84,7 +84,7 @@
 
     .mountains {
         position: absolute;
-        background-image: url("./src/assets/mountains.png");
+        background-image: url("./assets/mountains.png");
         background-position: center center;
         width: 100%;
         height: 200px;

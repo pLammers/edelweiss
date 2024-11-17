@@ -7,7 +7,7 @@
     <div class="header-menu">
         <div class="header-menu-left">
             <span class="header-menu-left-logo-text">Hundesalon</span>
-            <img src="./src/assets/logo.png" alt="logo" width="100px" />
+            <img src="./assets/logo.png" alt="logo" width="100px" />
             <span class="header-menu-left-logo-text">EDELWEISS</span>
         </div>
         <!-- <div class="header-menu-right">
@@ -40,7 +40,7 @@
         max-width: 100%;
         text-align: center;
 
-        background-image: url("./src/assets/header_bg.png");
+        background-image: url("./assets/header_bg.png");
         height: 900px;
         background-repeat: no-repeat;
         background-position: center center;

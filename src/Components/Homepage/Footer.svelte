@@ -7,7 +7,7 @@
 
     <div class="footer-wrapper">
         <div class="footer-contact-information">
-            <img class="logo" src="./src/assets/logo.png" alt="logo" />
+            <img class="logo" src="./assets/logo.png" alt="logo" />
 
             <div class="text-header">Inhaberin:</div>
             <div class="text-content">Marion Kabus</div>
@@ -19,21 +19,21 @@
             <div class="text-content">
                 <img
                     class="icon"
-                    src="./src/assets/icons/phone.png"
+                    src="./assets/icons/phone.png"
                     alt="phone"
                 /> 015120777965
             </div>
             <div class="text-content">
                 <img
                     class="icon"
-                    src="./src/assets/icons/mail.png"
+                    src="./assets/icons/mail.png"
                     alt="mail"
                 /> info@hundesalon-edelweiss.de
             </div>
             <div class="text-content">
                 <img
                     class="icon"
-                    src="./src/assets/icons/instagram.png"
+                    src="./assets/icons/instagram.png"
                     alt="instagram"
                 />
                 <a
@@ -80,7 +80,7 @@
         padding-right: 50px;
         max-width: 100%;
 
-        background-image: url("./src/assets/mountains.png");
+        background-image: url("./assets/mountains.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;

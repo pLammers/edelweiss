@@ -6,7 +6,7 @@
     {#if showLogo}
         <img
             class="edelweiss-headline-logo"
-            src="./src/assets/logo.png"
+            src="./assets/logo.png"
             alt="logo"
         />
     {/if}
