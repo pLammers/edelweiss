@@ -1,17 +1,76 @@
 <script>
+    import Button from "../../SimpleElements/Button.svelte";
+    import { openWA } from "../../Helper.js";
+    import EdelweissHeadline from "../../SimpleElements/EdelweissHeadline.svelte";
 </script>
 
 <div class="intro-container">
     <div class="intro-content">
         <div class="mountains"></div>
+        <EdelweissHeadline></EdelweissHeadline>
+        <div class="intro-block-container">
+            <div class="intro-block">
+                <div class="intro-headline">
+                    Wer stutzt hier meinen Hund zusammen?
+                </div>
+                <div class="intro-text">
+                    Ich bin Marion, geboren 1970 in Groß-Umstadt. Ich bin eine
+                    stolze Mama von zwei wundervollen Buben und lebe meinen
+                    Traum von einer kleinen Farm, umgeben von meinen geliebten
+                    Tieren - Ziegen, einem Hund, einer Katze sowie Enten und
+                    Hühnern.
+                    <br /><br />
+                    Als gelernte Reiseverkehrskauffrau bin ich schließlich als Quereinsteiger
+                    in einer Tierarztpraxis gelandet und habe dort x Jahre gearbeitet.
+                </div>
+                <img
+                    class="intro-block1-image"
+                    src="./src/assets/ziegen1.png"
+                    alt="ziege"
+                />
+            </div>
+            <div class="intro-block end">
+                <img
+                class="intro-block2-image"
+                src="./src/assets/marion_hund.png"
+                alt="ziege"
+            />
+                <div class="intro-headline">Deine Hundefriseurin in Zell!</div>
+                <div class="intro-text">
+                    Ich liebe es, mich um unsere tierischen Freunde zu kümmern.
+                    Mit meinem Freund an der Seite, dessen Unterstützung
+                    unentbehrlich für die Verwirklichung meines Traums war,
+                    konnte ich meinen eigenen Hundesalon eröffnen. Auch meine
+                    liebe Familie hat mir geraten, zu tun, was mich glücklich
+                    macht.
+                    <br /><br />
+                    Meine Wurzeln liegen in Österreich, und durch das Edelweiß verkörpere
+                    ich meine Liebe zu den Bergen und den schönen Erinnerungen an
+                    meine Heimat, die einen besonderen Platz in meinem Herzen haben.
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="intro-footer"></div>
+    <div class="intro-footer">
+        <div class="intro-text h-color-dark">
+            Ich habe meine Erfüllung in einem Beruf gefunden, der sich ganz um
+            Tiere dreht. Ich bringe meine Erfahrungen täglich ein und freue
+            mich, sie mit Dir und Deinem Hund zu teilen.
+            <br />
+            <br />
+            Im Hundesalon Edelweiss steht Dein Hund im Mittelpunkt. Ich biete ein
+            entspanntes und liebevolles Umfeld und lege selbstverständlich großen
+            Wert auf eine behutsame und gleichzeitig professionelle Pflege.
+        </div>
+        <Button cssClass="h-self-center" text="Termin buchen" onClick={openWA}
+        ></Button>
+    </div>
 </div>
 
 <style>
     .intro-container {
         background-color: white;
-        padding: 20px;
+        padding: 35px;
         padding-top: 120px;
         overflow: hidden;
     }
@@ -19,7 +78,8 @@
     .intro-content {
         position: relative;
         background-color: #c39e6f;
-        height: 500px;
+        height: 1300px;
+        padding: 30px;
     }
 
     .mountains {
@@ -32,7 +92,58 @@
         left: 0;
     }
 
+    .intro-block-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 340px;
+    }
+
+    .intro-block {
+        padding: 15px;
+        padding-left: 175px;
+        padding-right: 175px;
+        width: 45%;
+    }
+
+    .intro-block1-image {
+        width: 690px;
+        position: absolute;
+        right: -25px;
+        top: 225px;
+    }
+
+    .intro-block2-image {
+        width: 490px;
+        position: absolute;
+        left: 170px;
+        top: 600px;
+    }
+
+    .end {
+        align-self: end;
+    }
+
+    .intro-headline {
+        color: #170916;
+        font-size: 2.4rem;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+
+    .intro-text {
+        color: white;
+        font-size: 2.1rem;
+        font-weight: 300;
+    }
+
     .intro-footer {
-        height: 200px;
+        display: flex;
+        flex-direction: column;
+        height: 195px;
+        padding: 110px;
+        padding-top: 165px;
+        padding-bottom: 50px;
+        gap: 35px;
     }
 </style>

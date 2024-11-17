@@ -1,5 +1,5 @@
 <script>
-    import Map from "../map.svelte";
+    import Map from "../Map.svelte";
 </script>
 
 <div class="footer-container">
@@ -89,7 +89,7 @@
     .logo {
         position: absolute;
         width: 150px;
-        top: 110px;
+        top: 80px;
     }
 
     .footer-headline {

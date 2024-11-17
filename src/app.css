@@ -14,10 +14,45 @@ body {
   margin: 0;
   color: black;
   background-color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Signika", Geneva, Tahoma, sans-serif;
   position: relative;
+  line-height: 30px;
 
   @media only screen and (max-width: 1200px) {
     font-size: 12px;
   }
+}
+
+
+.h-color-dark {
+  color: #170916 !important;
+}
+
+.h-self-flex-end {
+  align-self: flex-end;
+}
+
+.h-self-center {
+  align-self: center;
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "Signika";
+  src: url('./assets//fonts/Signika-Light.ttf');
+  src: url('./assets//fonts/Signika-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Signika";
+  src: url('./assets//fonts/Signika-Regular.ttf');
+  src: url('./assets//fonts/Signika-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Signika";
+  src: url('./assets//fonts/Signika-Bold.ttf');
+  src: url('./assets//fonts/Signika-Bold.ttf') format('truetype');
 }

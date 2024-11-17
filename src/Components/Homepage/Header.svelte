@@ -107,5 +107,6 @@
         gap: 20px;
         font-weight: 600;
         margin-top: 0;
+        line-height: 35px;
     }
 </style>
