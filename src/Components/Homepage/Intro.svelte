@@ -109,7 +109,7 @@
     .intro-block1-image {
         width: 690px;
         position: absolute;
-        right: -25px;
+        right: -35px;
         top: 225px;
     }
 
