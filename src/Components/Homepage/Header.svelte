@@ -40,7 +40,7 @@
         max-width: 100%;
         text-align: center;
 
-        background-image: url("./assets/header_bg.png");
+        background-image: url("./public/assets/header_bg.png");
         height: 900px;
         background-repeat: no-repeat;
         background-position: center center;
