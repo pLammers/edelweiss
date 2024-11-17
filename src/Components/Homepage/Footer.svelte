@@ -100,7 +100,7 @@
         color: black;
         font-size: 4rem;
         font-weight: bold;
-        padding: 20px;
+        padding: 30px;
     }
 
     .footer-wrapper {
