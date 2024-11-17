@@ -80,7 +80,7 @@
         padding-right: 50px;
         max-width: 100%;
 
-        background-image: url("./public/assets/mountains.png");
+        background-image: url("./mountains.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
