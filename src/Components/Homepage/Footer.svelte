@@ -92,15 +92,16 @@
     .logo {
         position: absolute;
         width: 150px;
-        top: 40px;
+        top: 105px;
     }
 
     .footer-headline {
         text-align: center;
-        color: black;
-        font-size: 4rem;
+        color:#170916;
+        font-size: 6rem;
         font-weight: bold;
-        padding: 30px;
+        padding: 50px;
+        padding-bottom: 60px;
     }
 
     .footer-wrapper {
