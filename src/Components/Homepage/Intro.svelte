@@ -97,6 +97,10 @@
         flex-direction: column;
         margin-top: 40px;
         gap: 340px;
+
+        @media only screen and (max-width: 1500px) {
+            gap: 100px;
+        }
     }
 
     .intro-block {
@@ -104,6 +108,16 @@
         padding-left: 175px;
         padding-right: 175px;
         width: 45%;
+
+        @media only screen and (max-width: 1670px) {
+            padding-left: 90px;
+            padding-right: 90px;
+        }
+
+        @media only screen and (max-width: 1500px) {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
     }
 
     .intro-block1-image {
@@ -111,6 +125,10 @@
         position: absolute;
         right: -35px;
         top: 225px;
+
+        @media only screen and (max-width: 1500px) {
+            width: 550px;
+        }
     }
 
     .intro-block2-image {
@@ -118,6 +136,12 @@
         position: absolute;
         left: 170px;
         top: 600px;
+
+        @media only screen and (max-width: 1500px) {
+            width: 410px;
+            top: 700px;
+            left: 130px;
+        }
     }
 
     .end {
