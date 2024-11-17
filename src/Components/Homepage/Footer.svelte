@@ -3,7 +3,7 @@
 </script>
 
 <div class="footer-container">
-    <div class="footer-headline">Kontakt</div>
+    <h2 class="footer-headline">Kontakt</h2>
 
     <div class="footer-wrapper">
         <div class="footer-contact-information">
@@ -16,18 +16,10 @@
 
             <div class="text-header">Termin buchen:</div>
             <div class="text-content">
-                <img
-                    class="icon"
-                    src="./assets/icons/phone.png"
-                    alt="phone"
-                /> 015120777965
+                <img class="icon" src="./assets/icons/phone.png" alt="phone" /> 015120777965
             </div>
             <div class="text-content">
-                <img
-                    class="icon"
-                    src="./assets/icons/mail.png"
-                    alt="mail"
-                /> info@hundesalon-edelweiss.de
+                <img class="icon" src="./assets/icons/mail.png" alt="mail" /> info@hundesalon-edelweiss.de
             </div>
             <div class="text-content">
                 <img
@@ -93,25 +85,48 @@
         position: absolute;
         width: 150px;
         top: 105px;
+
+        @media only screen and (max-width: 1200px) {
+            right: 30px;
+            top: 90px;
+        }
     }
 
     .footer-headline {
         text-align: center;
-        color:#170916;
+        color: #170916;
         font-size: 6rem;
         font-weight: bold;
-        padding: 50px;
+        padding: 55px;
         padding-bottom: 60px;
+
+        @media only screen and (max-width: 1200px) {
+            padding: 25px;
+        }
     }
 
     .footer-wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+        }
     }
 
     .footer-contact-information {
         padding-top: 100px;
+
+        @media only screen and (max-width: 1200px) {
+            padding-top: 30px;
+        }
+    }
+
+    .footer-location {
+        @media only screen and (max-width: 1200px) {
+            margin-top: 30px;
+        }
     }
 
     .footer-location-address {

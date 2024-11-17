@@ -26,5 +26,12 @@
         justify-content: center;
         background-color: rgba(1, 1, 1, 0.6);
         background-blend-mode: darken;
+
+        @media only screen and (max-width: 1200px) {
+            line-height: 24px;
+            padding: 25px;
+            text-align: center;
+            font-size: 1.6rem;
+        }
     }
 </style>

@@ -5,11 +5,11 @@
 
 <div class="header-container">
     <div class="header-menu">
-        <div class="header-menu-left">
+        <h1 class="header-menu-left">
             <span class="header-menu-left-logo-text">Hundesalon</span>
             <img src="./assets/logo.png" alt="logo" width="100px" />
             <span class="header-menu-left-logo-text">EDELWEISS</span>
-        </div>
+        </h1>
         <!-- <div class="header-menu-right">
             <span class="header-menu-item">SALON</span>
             <span class="header-menu-item">SERVICES</span>
@@ -56,6 +56,13 @@
     .header-menu {
         display: flex;
         justify-content: space-between;
+
+        @media only screen and (max-width: 1200px) {
+            display: inherit;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+        }
     }
 
     .header-menu-left {
@@ -65,11 +72,21 @@
         flex-direction: row;
         gap: 10px;
         font-size: 3.5rem;
+
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+        }
     }
 
     .header-menu-left-logo-text {
         padding-top: 40px;
         font-family: "wrath";
+
+        @media only screen and (max-width: 1200px) {
+            padding-top: 0;
+        }
     }
 
     .header-menu-right {
