@@ -285,6 +285,7 @@
             margin: auto;
             margin-top: 0;
             margin-bottom: 0;
+            width: 80%;
         }
     }
 
