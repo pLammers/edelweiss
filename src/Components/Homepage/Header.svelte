@@ -48,8 +48,9 @@
         background-color: rgba(0, 0, 0, 0.4);
         background-blend-mode: overlay;
 
-        @media only screen and (max-width: 900px) {
-            gap: 100px;
+        @media only screen and (max-width: 1200px) {
+            height: 500px;
+            background-position: top;
         }
     }
 
@@ -110,6 +111,10 @@
     .header-center {
         font-size: 3.9rem;
         line-height: 70px;
+
+        @media only screen and (max-width: 1200px) {
+            display: none;
+        }
     }
 
     .header-bottom {
@@ -125,5 +130,11 @@
         font-weight: 600;
         margin-top: 0;
         line-height: 35px;
+
+        @media only screen and (max-width: 1200px) {
+            div {
+                display: none;
+            }
+        }
     }
 </style>
