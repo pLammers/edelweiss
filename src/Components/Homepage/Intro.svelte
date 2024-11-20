@@ -171,11 +171,14 @@
         left: 0;
 
         @media only screen and (max-width: 1200px) {
-            background-size: contain;
-            height: 200px;
-            top: -173px;
+            background-size: cover;
+            top: -85px;
+            width: 100%;
+            height: 86px;
             left: 0;
             background-repeat: no-repeat;
+            display: block;
+            background-position: bottom center;
         }
     }
 
