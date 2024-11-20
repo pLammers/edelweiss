@@ -20,7 +20,7 @@
                 <div style="color: white">Hundesalon Edelweiss</div>
                 <div style="color: black">in Bad-König Zell</div>
             </div>
-            <div class="absolute-container">
+            <div class="absolute-container" style="height: 80vw">
                 <img
                     class="intro-block1-image"
                     src="./assets/ziegen1.png"
@@ -157,7 +157,8 @@
         @media only screen and (max-width: 1200px) {
             text-align: center;
             padding: 0;
-            height: 1550px;
+            height: auto;
+            padding-bottom: 5px;
         }
     }
 
@@ -221,6 +222,7 @@
         }
 
         @media only screen and (max-width: 1200px) {
+            position: relative;
             top: 0;
             width: -webkit-fill-available;
             z-index: 1;
@@ -253,6 +255,7 @@
         }
 
         @media only screen and (max-width: 1200px) {
+            position: relative;
             top: 0;
             width: -webkit-fill-available;
             z-index: 1;
@@ -306,17 +309,15 @@
 
         @media only screen and (max-width: 1200px) {
             justify-content: center;
-            padding: 20px;
-            height: 350px;
             gap: 30px;
-            padding-top: 0;
-            padding-bottom: 0;
+            height: auto;
+            padding: 20px;
         }
     }
 
     .absolute-container {
-        height: 335px;
         position: relative;
+        margin: auto;
         margin-top: 30px;
         margin-bottom: 30px;
     }

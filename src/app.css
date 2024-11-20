@@ -17,10 +17,6 @@ body {
   font-family: "Signika", Geneva, Tahoma, sans-serif;
   position: relative;
   line-height: 30px;
-
-  @media only screen and (max-width: 1200px) {
-    font-size: 12px;
-  }
 }
 
 h1,
@@ -53,6 +49,11 @@ h3 {
 .h-font-size-l {
   font-size: 3.5rem;
   line-height: 4.3rem;
+
+  @media only screen and (max-width: 500px) {
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+}
 }
 
 @font-face {
