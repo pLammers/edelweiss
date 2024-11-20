@@ -126,7 +126,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        gap: 20px;
+        gap: 40px;
         font-weight: 600;
         margin-top: 0;
         line-height: 35px;
