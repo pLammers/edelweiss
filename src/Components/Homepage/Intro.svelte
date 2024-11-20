@@ -302,9 +302,12 @@
         }
 
         @media only screen and (max-width: 1200px) {
-            padding: 20px;
-            height: 385px;
             justify-content: center;
+            padding: 20px;
+            height: 350px;
+            gap: 30px;
+            padding-top: 0;
+            padding-bottom: 0;
         }
     }
 

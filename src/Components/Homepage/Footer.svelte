@@ -88,7 +88,7 @@
 
         @media only screen and (max-width: 1200px) {
             right: 30px;
-            top: 90px;
+            top: 110px;
         }
     }
 
@@ -102,6 +102,7 @@
 
         @media only screen and (max-width: 1200px) {
             padding: 25px;
+            padding-bottom: 50px;
         }
     }
 
