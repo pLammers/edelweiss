@@ -80,11 +80,11 @@
                         Wer stutzt hier meinen Hund zusammen?
                     </div>
                     <div class="intro-text">
-                        Ich bin Marion, geboren 1970 in Groß-Umstadt. Ich bin
-                        eine stolze Mama von zwei wundervollen Buben und lebe
-                        meinen Traum von einer kleinen Farm, umgeben von meinen
-                        geliebten Tieren - Ziegen, einem Hund, einer Katze sowie
-                        Enten und Hühnern.
+                        Ich bin Marion, geboren im Dezember 1970 in Groß-Umstadt und
+                        darf mich stolze Mama von zwei wundervollen Buben nennen. Ich
+                        lebe glücklich, gemeinsam mit meinem lieben Freund, unseren
+                        Traum von einer kleinen Farm, umgeben von unseren Ziegen,
+                        Schafen, einem Hund, einer Katze, sowie Enten und Hühnern.
                         <br /><br />
                         Als gelernte Reiseverkehrskauffrau bin ich schließlich als
                         Quereinsteiger in einer Tierarztpraxis gelandet und habe
