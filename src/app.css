@@ -57,7 +57,7 @@ h3 {
 }
 
 .h-width-95 {
-  width: 95%;
+  width: 95% !important;
 }
 
 @font-face {
