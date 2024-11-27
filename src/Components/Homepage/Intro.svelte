@@ -20,10 +20,10 @@
                 <div style="color: white">Hundesalon Edelweiss</div>
                 <div style="color: black">in Bad-König Zell</div>
             </div>
-            <div class="absolute-container" style="height: 80vw">
+            <div class="absolute-container" style="height: 92vw">
                 <img
                     class="intro-block1-image"
-                    src="./assets/ziegen1.png"
+                    src="./assets/image00002_shortformat.png"
                     alt="ziege"
                 />
                 <div
@@ -35,26 +35,32 @@
             </div>
 
             <div class="intro-text">
-                Ich bin Marion, geboren 1970 in Groß-Umstadt. Ich bin eine
-                stolze Mama von zwei wundervollen Buben und lebe meinen Traum
-                von einer kleinen Farm, umgeben von meinen geliebten Tieren -
-                Ziegen, einem Hund, einer Katze sowie Enten und Hühnern.
+                Ich bin Marion, geboren im Dezember 1970 in Groß-Umstadt und
+                darf mich stolze Mama von zwei wundervollen Buben nennen. Ich
+                lebe glücklich, gemeinsam mit meinem lieben Freund, unseren
+                Traum von einer kleinen Farm, umgeben von unseren Ziegen,
+                Schafen, einem Hund, einer Katze, sowie Enten und Hühnern.
             </div>
 
             <div class="absolute-container">
                 <img
                     class="intro-block2-image"
-                    src="./assets/marion_hund.png"
+                    src="./assets/ziegen2.jpeg"
                     alt="ziege"
                 />
             </div>
         </div>
         <div class="intro-footer">
             <div class="intro-text h-color-dark">
-                Im Hundesalon Edelweiss steht Dein Hund im Mittelpunkt. Ich
-                biete ein entspanntes und liebevolles Umfeld und lege
-                selbstverständlich großen Wert auf eine behutsame und
-                gleichzeitig professionelle Pflege.
+                Im Hundesalon Edelweiss steht Dein Hund im Mittelpunkt. Ich lege
+                meinen Fokus darauf, Hundebesitzern im stressigen Alltag zu
+                helfen, indem ich liebevolle und geduldige Pflegeleistungen für
+                ihre Fellnasen anbiete. Dazu gehören Baden, Föhnen, Ausbürsten
+                (Unterwolle, Verfilzungen), Pfötchenpflege, sowie das Scheren
+                oder Schneiden einfacher, ansprechender und hübscher Frisuren.
+                Mein Ziel ist es, dass sich die Hundchen rundum wohl und
+                glücklich fühlen, deshalb freue ich mich über jeden einzelnen
+                Besucher in meinem Salon.
             </div>
             <Button
                 cssClass="h-self-center"
@@ -93,7 +99,7 @@
                 <div class="intro-block end">
                     <img
                         class="intro-block2-image"
-                        src="./assets/marion_hund.png"
+                        src="./assets/image00002.jpeg"
                         alt="ziege"
                     />
                     <div class="intro-headline">
@@ -288,7 +294,7 @@
             margin: auto;
             margin-top: 0;
             margin-bottom: 0;
-            width: 80%;
+            width: 96%;
         }
     }
 
@@ -303,13 +309,14 @@
 
         @media only screen and (max-width: 1500px) {
             padding-top: 125px;
-            padding-bottom: 50px;
+            padding-bottom: 0px;
             gap: 25px;
+            height: auto;
         }
 
         @media only screen and (max-width: 1200px) {
             justify-content: center;
-            gap: 30px;
+            gap: 15px;
             height: auto;
             padding: 20px;
         }

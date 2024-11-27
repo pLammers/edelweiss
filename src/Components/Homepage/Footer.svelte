@@ -37,8 +37,9 @@
             <br />
 
             <div class="text-header">Termin buchen:</div>
-            <div class="text-content">-> Vor Ort nach Vereinbarung</div>
             <div class="text-content">-> Täglich telefonisch</div>
+            <div class="text-content">-> WhatsApp</div>
+            <div class="text-content">-> E-Mail</div>
         </div>
 
         <div class="footer-location">

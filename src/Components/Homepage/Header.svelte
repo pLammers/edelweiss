@@ -6,9 +6,7 @@
 <div class="header-container">
     <div class="header-menu">
         <h1 class="header-menu-left">
-            <span class="header-menu-left-logo-text">Hundesalon</span>
-            <img src="./assets/logo.png" alt="logo" width="100px" />
-            <span class="header-menu-left-logo-text">EDELWEISS</span>
+            <img src="./assets/wholelogo_horizontal.png" alt="logo" />
         </h1>
         <!-- <div class="header-menu-right">
             <span class="header-menu-item">SALON</span>
@@ -68,7 +66,7 @@
 
     .header-menu-left {
         display: flex;
-        /* width: 50%; */
+        width: 40%;
         flex-wrap: wrap;
         flex-direction: row;
         gap: 10px;
@@ -78,6 +76,11 @@
             flex-direction: column;
             align-items: center;
             gap: 0px;
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
         }
     }
 

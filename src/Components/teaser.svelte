@@ -32,6 +32,8 @@
             padding: 25px;
             text-align: center;
             font-size: 1.6rem;
+            background-size: 130%;
+            background-position: 0px -27px;
         }
     }
 </style>
