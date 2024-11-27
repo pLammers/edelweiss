@@ -30,7 +30,7 @@
                     class="h-font-size-l intro-block1-image-abs-text"
                     style="color: white"
                 >
-                    Wer stutzt hier meinen Hunde zusammen?
+                    Wer stutzt hier meinen Hund zusammen?
                 </div>
             </div>
 
