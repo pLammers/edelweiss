@@ -49,6 +49,7 @@
         @media only screen and (max-width: 1200px) {
             height: 500px;
             background-position: top;
+            gap: 290px;
         }
     }
 
