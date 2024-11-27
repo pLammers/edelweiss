@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <div class="intro-text">
+            <div class="intro-text h-width-95">
                 Ich bin Marion, geboren im Dezember 1970 in Groß-Umstadt und
                 darf mich stolze Mama von zwei wundervollen Buben nennen. Ich
                 lebe glücklich, gemeinsam mit meinem lieben Freund, unseren
