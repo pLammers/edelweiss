@@ -2,6 +2,7 @@
     import Button from "../../SimpleElements/Button.svelte";
     import { openWA } from "../../Helper.js";
     import EdelweissHeadline from "../../SimpleElements/EdelweissHeadline.svelte";
+    import Teaser from "../Teaser.svelte";
 
     let innerWidth;
 </script>
@@ -17,7 +18,7 @@
             </div>
             <div class="h-font-size-l">
                 <div style="color: black">Dann ab zum</div>
-                <div style="color: white">Hundesalon Edelweiss</div>
+                <div style="color: white;font-weight: bold;">Hundesalon Edelweiss</div>
                 <div style="color: black">in Bad-König Zell</div>
             </div>
             <div class="absolute-container" style="height: 92vw">
@@ -49,15 +50,24 @@
                     alt="ziege"
                 />
             </div>
-        </div>
-        <div class="intro-footer">
-            <div class="intro-text h-color-dark">
+            <div class="intro-text h-width-95">
                 Im Hundesalon Edelweiss steht Dein Hund im Mittelpunkt. Ich lege
                 meinen Fokus darauf, Hundebesitzern im stressigen Alltag zu
                 helfen, indem ich liebevolle und geduldige Pflegeleistungen für
-                ihre Fellnasen anbiete. Dazu gehören Baden, Föhnen, Ausbürsten
+                ihre Fellnasen anbiete.
+            </div>
+        </div>
+        <Teaser
+        text1="ES GIBT NUR EINEN EINZIGEN, DEN KLÜGSTEN UND SCHÖNSTEN HUND"
+        text2="AUF DER WELT - UND JEDER BESITZT GENAU DIESEN!"
+        backgroundUrl="./assets/waterhose_dog.png"
+      ></Teaser>
+        <div class="intro-footer">
+            <div class="intro-text h-color-pink">
+                Zu meinen Leistungen gehören Baden, Föhnen, Ausbürsten
                 (Unterwolle, Verfilzungen), Pfötchenpflege, sowie das Scheren
                 oder Schneiden einfacher, ansprechender und hübscher Frisuren.
+                <br/><br/>
                 Mein Ziel ist es, dass sich die Hundchen rundum wohl und
                 glücklich fühlen, deshalb freue ich mich über jeden einzelnen
                 Besucher in meinem Salon.
@@ -85,10 +95,6 @@
                         lebe glücklich, gemeinsam mit meinem lieben Freund, unseren
                         Traum von einer kleinen Farm, umgeben von unseren Ziegen,
                         Schafen, einem Hund, einer Katze, sowie Enten und Hühnern.
-                        <br /><br />
-                        Als gelernte Reiseverkehrskauffrau bin ich schließlich als
-                        Quereinsteiger in einer Tierarztpraxis gelandet und habe
-                        dort x Jahre gearbeitet.
                     </div>
                     <img
                         class="intro-block1-image"
@@ -106,31 +112,22 @@
                         Deine Hundefriseurin in Zell!
                     </div>
                     <div class="intro-text">
-                        Ich liebe es, mich um unsere tierischen Freunde zu
-                        kümmern. Mit meinem Freund an der Seite, dessen
-                        Unterstützung unentbehrlich für die Verwirklichung
-                        meines Traums war, konnte ich meinen eigenen Hundesalon
-                        eröffnen. Auch meine liebe Familie hat mir geraten, zu
-                        tun, was mich glücklich macht.
-                        <br /><br />
-                        Meine Wurzeln liegen in Österreich, und durch das Edelweiß
-                        verkörpere ich meine Liebe zu den Bergen und den schönen
-                        Erinnerungen an meine Heimat, die einen besonderen Platz
-                        in meinem Herzen haben.
+                        Im Hundesalon Edelweiss steht Dein Hund im Mittelpunkt. Ich lege
+                        meinen Fokus darauf, Hundebesitzern im stressigen Alltag zu
+                        helfen, indem ich liebevolle und geduldige Pflegeleistungen für
+                        ihre Fellnasen anbiete.
                     </div>
                 </div>
             </div>
         </div>
         <div class="intro-footer">
             <div class="intro-text h-color-dark">
-                Ich habe meine Erfüllung in einem Beruf gefunden, der sich ganz
-                um Tiere dreht. Ich bringe meine Erfahrungen täglich ein und
-                freue mich, sie mit Dir und Deinem Hund zu teilen.
-                <br />
-                <br />
-                Im Hundesalon Edelweiss steht Dein Hund im Mittelpunkt. Ich biete
-                ein entspanntes und liebevolles Umfeld und lege selbstverständlich
-                großen Wert auf eine behutsame und gleichzeitig professionelle Pflege.
+                Zu meinen Leistungen gehören Baden, Föhnen, Ausbürsten
+                (Unterwolle, Verfilzungen), Pfötchenpflege, sowie das Scheren
+                oder Schneiden einfacher, ansprechender und hübscher Frisuren.
+                Mein Ziel ist es, dass sich die Hundchen rundum wohl und
+                glücklich fühlen, deshalb freue ich mich über jeden einzelnen
+                Besucher in meinem Salon.
             </div>
             <Button
                 cssClass="h-self-center"
@@ -156,7 +153,7 @@
 
     .intro-content {
         position: relative;
-        background-color: #c39e6f;
+        background-color: #CAAC83;
         height: 1300px;
         padding: 30px;
 
@@ -164,13 +161,13 @@
             text-align: center;
             padding: 0;
             height: auto;
-            padding-bottom: 5px;
+            padding-bottom: 35px;
         }
     }
 
     .mountains {
         position: absolute;
-        background-image: url("./mountains.png");
+        background-image: url("./assets/mountains.png");
         background-position: center center;
         width: 100%;
         height: 200px;
@@ -316,9 +313,11 @@
 
         @media only screen and (max-width: 1200px) {
             justify-content: center;
-            gap: 15px;
+            gap: 25px;
             height: auto;
             padding: 20px;
+            padding-top: 35px;
+    padding-bottom: 35px;
         }
     }
 
@@ -332,5 +331,6 @@
     .slogan {
         color: white;
         padding-bottom: 30px;
+        font-weight: bold;
     }
 </style>

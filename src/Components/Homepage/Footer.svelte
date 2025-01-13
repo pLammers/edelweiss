@@ -37,9 +37,9 @@
             <br />
 
             <div class="text-header">Termin buchen:</div>
-            <div class="text-content">-> Täglich telefonisch</div>
-            <div class="text-content">-> WhatsApp</div>
-            <div class="text-content">-> E-Mail</div>
+            <div class="text-content">• &nbsp;Täglich telefonisch</div>
+            <div class="text-content">• &nbsp;WhatsApp</div>
+            <div class="text-content">• &nbsp;E-Mail</div>
         </div>
 
         <div class="footer-location">
@@ -71,7 +71,7 @@
         padding-right: 50px;
         max-width: 100%;
 
-        background-image: url("./mountains.png");
+        background-image: url("./assets/mountains.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
