@@ -38,7 +38,7 @@
         max-width: 100%;
         text-align: center;
 
-        background-image: url("./header_bg.png");
+        background-image: url("./assets/header_bg.png"); /* GITHUB ASSETS CHANGE */
         height: 900px;
         background-repeat: no-repeat;
         background-position: center center;
@@ -47,6 +47,12 @@
         background-blend-mode: overlay;
 
         @media only screen and (max-width: 1200px) {
+            height: 500px;
+            background-position: top;
+            gap: 260px;
+        }
+
+        @media only screen and (max-width: 500px) {
             height: 500px;
             background-position: top;
             gap: 290px;

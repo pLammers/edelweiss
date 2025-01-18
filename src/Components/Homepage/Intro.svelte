@@ -9,7 +9,7 @@
 
 <svelte:window bind:innerWidth />
 
-{#if innerWidth <= 1210}
+{#if innerWidth <= 1200}
     <div class="intro-container">
         <div class="intro-content">
             <div class="mountains"></div>
@@ -175,7 +175,7 @@
 
     .mountains {
         position: absolute;
-        background-image: url("./mountains.png");
+        background-image: url("./assets/mountains.png"); /* GITHUB ASSETS CHANGE */
         background-position: center center;
         width: 100%;
         height: 200px;
@@ -183,6 +183,39 @@
         left: 0;
 
         @media only screen and (max-width: 1200px) {
+            height: 163px;
+        background-position: center center;
+        background-size: cover;
+        top: -163px;
+            width: 100%;
+            left: 0;
+            background-repeat: no-repeat;
+            display: block;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            height: 140px;
+            background-position: 0px -80px;
+            background-size: cover;
+            top: -140px;
+            width: 100%;
+            left: 0;
+            background-repeat: no-repeat;
+            display: block;
+        }
+
+        @media only screen and (max-width: 850px) {
+            height: 123px;
+            background-position: 0px -75px;
+            background-size: cover;
+            top: -119px;
+            width: 100%;
+            left: 0;
+            background-repeat: no-repeat;
+            display: block;
+        }
+
+        @media only screen and (max-width: 565px) {
             background-size: cover;
             top: -85px;
             width: 100%;
@@ -198,10 +231,14 @@
         display: flex;
         flex-direction: column;
         margin-top: 40px;
-        gap: 400px;
+        gap: 380px;
+
+        @media only screen and (max-width: 1700px) {
+            gap: 310px;
+        }
 
         @media only screen and (max-width: 1500px) {
-            gap: 100px;
+            gap: 230px;
         }
     }
 
@@ -259,10 +296,18 @@
         left: 170px;
         top: 520px;
 
+        @media only screen and (max-width: 1670px) {
+            top: 540px;
+        }
+
+        @media only screen and (max-width: 1590px) {
+            top: 560px;
+        }
+
         @media only screen and (max-width: 1500px) {
             width: 410px;
-            top: 700px;
-            left: 130px;
+            top: 640px;
+            left: 120px;
         }
 
         @media only screen and (max-width: 1200px) {
