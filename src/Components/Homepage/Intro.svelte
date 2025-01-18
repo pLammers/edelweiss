@@ -175,7 +175,7 @@
 
     .mountains {
         position: absolute;
-        background-image: url("./assets/mountains.png");
+        background-image: url("./mountains.png");
         background-position: center center;
         width: 100%;
         height: 200px;
