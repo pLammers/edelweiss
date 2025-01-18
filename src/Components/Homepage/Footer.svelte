@@ -71,7 +71,7 @@
         padding-right: 50px;
         max-width: 100%;
 
-        background-image: url("./assets/mountains.png"); /* GITHUB ASSETS CHANGE */
+        background-image: url("./mountains.png"); /* GITHUB ASSETS CHANGE */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
