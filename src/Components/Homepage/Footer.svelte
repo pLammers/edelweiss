@@ -19,7 +19,7 @@
                 <img class="icon" src="./assets/icons/phone.png" alt="phone" /> 015120777965
             </div>
             <div class="text-content">
-                <img class="icon" src="./assets/icons/mail.png" alt="mail" /> info@hundesalon-edelweiss.de
+                <img class="icon" src="./assets/icons/mail.png" alt="mail" /> <a href="mailto:info@hundesalon-edelweiss.de" target="_self">info@hundesalon-edelweiss.de</a>
             </div>
             <div class="text-content">
                 <img

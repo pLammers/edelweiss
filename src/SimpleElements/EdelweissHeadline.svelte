@@ -17,7 +17,7 @@
 <style>
     .edelweiss-headline-container {
         text-align: center;
-        line-height: 70px;
+        line-height: 75px;
     }
 
     .edelweiss-headline-logo {

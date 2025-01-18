@@ -18,7 +18,9 @@
             </div>
             <div class="h-font-size-l">
                 <div style="color: black">Dann ab zum</div>
-                <div style="color: white;font-weight: bold;">Hundesalon Edelweiss</div>
+                <div style="color: white;font-weight: bold;">
+                    Hundesalon Edelweiss
+                </div>
                 <div style="color: black">in Bad-König Zell</div>
             </div>
             <div class="absolute-container" style="height: 92vw">
@@ -58,19 +60,19 @@
             </div>
         </div>
         <Teaser
-        text1="ES GIBT NUR EINEN EINZIGEN, DEN KLÜGSTEN UND SCHÖNSTEN HUND"
-        text2="AUF DER WELT - UND JEDER BESITZT GENAU DIESEN!"
-        backgroundUrl="./assets/waterhose_dog.png"
-      ></Teaser>
+            text1="ES GIBT NUR EINEN EINZIGEN, DEN KLÜGSTEN UND SCHÖNSTEN HUND"
+            text2="AUF DER WELT - UND JEDER BESITZT GENAU DIESEN!"
+            backgroundUrl="./assets/waterhose_dog.png"
+        ></Teaser>
         <div class="intro-footer">
             <div class="intro-text h-color-pink">
                 Zu meinen Leistungen gehören Baden, Föhnen, Ausbürsten
                 (Unterwolle, Verfilzungen), Pfötchenpflege, sowie das Scheren
                 oder Schneiden einfacher, ansprechender und hübscher Frisuren.
-                <br/><br/>
-                Mein Ziel ist es, dass sich die Hundchen rundum wohl und
-                glücklich fühlen, deshalb freue ich mich über jeden einzelnen
-                Besucher in meinem Salon.
+                <br /><br />
+                Mein Ziel ist es, dass sich die Hundchen rundum wohl und glücklich
+                fühlen, deshalb freue ich mich über jeden einzelnen Besucher in meinem
+                Salon.
             </div>
             <Button
                 cssClass="h-self-center"
@@ -90,11 +92,12 @@
                         Wer stutzt hier meinen Hund zusammen?
                     </div>
                     <div class="intro-text">
-                        Ich bin Marion, geboren im Dezember 1970 in Groß-Umstadt und
-                        darf mich stolze Mama von zwei wundervollen Buben nennen. Ich
-                        lebe glücklich, gemeinsam mit meinem lieben Freund, unseren
-                        Traum von einer kleinen Farm, umgeben von unseren Ziegen,
-                        Schafen, einem Hund, einer Katze, sowie Enten und Hühnern.
+                        Ich bin Marion, geboren im Dezember 1970 in Groß-Umstadt
+                        und darf mich stolze Mama von zwei wundervollen Buben
+                        nennen. Ich lebe glücklich, gemeinsam mit meinem lieben
+                        Freund, unseren Traum von einer kleinen Farm, umgeben
+                        von unseren Ziegen, Schafen, einem Hund, einer Katze,
+                        sowie Enten und Hühnern.
                     </div>
                     <img
                         class="intro-block1-image"
@@ -112,11 +115,16 @@
                         Deine Hundefriseurin in Zell!
                     </div>
                     <div class="intro-text">
-                        Im Hundesalon Edelweiss steht Dein Hund im Mittelpunkt. Ich lege
-                        meinen Fokus darauf, Hundebesitzern im stressigen Alltag zu
-                        helfen, indem ich liebevolle und geduldige Pflegeleistungen für
-                        ihre Fellnasen anbiete.
+                        Im Hundesalon Edelweiss steht Dein Hund im Mittelpunkt.
+                        Ich lege meinen Fokus darauf, Hundebesitzern im
+                        stressigen Alltag zu helfen, indem ich liebevolle und
+                        geduldige Pflegeleistungen für ihre Fellnasen anbiete.
                     </div>
+                    <img
+                        class="intro-block2-edelweiss"
+                        src="./assets/edelweiss.png"
+                        alt="edelweiss"
+                    />
                 </div>
             </div>
         </div>
@@ -153,8 +161,8 @@
 
     .intro-content {
         position: relative;
-        background-color: #CAAC83;
-        height: 1300px;
+        background-color: #caac83;
+        height: 1250px;
         padding: 30px;
 
         @media only screen and (max-width: 1200px) {
@@ -190,7 +198,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 40px;
-        gap: 340px;
+        gap: 400px;
 
         @media only screen and (max-width: 1500px) {
             gap: 100px;
@@ -249,7 +257,7 @@
         width: 490px;
         position: absolute;
         left: 170px;
-        top: 600px;
+        top: 520px;
 
         @media only screen and (max-width: 1500px) {
             width: 410px;
@@ -268,6 +276,13 @@
             right: 0;
             margin: auto;
         }
+    }
+
+    .intro-block2-edelweiss {
+        width: 300px;
+        right: -10px;
+        position: absolute;
+        bottom: 30px;
     }
 
     .end {
@@ -317,7 +332,7 @@
             height: auto;
             padding: 20px;
             padding-top: 35px;
-    padding-bottom: 35px;
+            padding-bottom: 35px;
         }
     }
 
