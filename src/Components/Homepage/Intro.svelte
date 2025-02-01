@@ -26,7 +26,7 @@
             <div class="absolute-container" style="height: 92vw">
                 <img
                     class="intro-block1-image"
-                    src="./images/image00002_shortformat.png"
+                    src="/images/image00002_shortformat.png"
                     alt="ziege"
                 />
                 <div
@@ -48,7 +48,7 @@
             <div class="absolute-container">
                 <img
                     class="intro-block2-image"
-                    src="./images/ziegen2.jpeg"
+                    src="/images/ziegen2.jpeg"
                     alt="ziege"
                 />
             </div>
@@ -62,7 +62,7 @@
         <Teaser
             text1="ES GIBT NUR EINEN EINZIGEN, DEN KLÜGSTEN UND SCHÖNSTEN HUND"
             text2="AUF DER WELT - UND JEDER BESITZT GENAU DIESEN!"
-            backgroundUrl="./images/waterhose_dog.png"
+            backgroundUrl="/images/waterhose_dog.png"
         ></Teaser>
         <div class="intro-footer">
             <div class="intro-text h-color-pink">
@@ -101,14 +101,14 @@
                     </div>
                     <img
                         class="intro-block1-image"
-                        src="./images/ziegen1.png"
+                        src="/images/ziegen1.png"
                         alt="ziege"
                     />
                 </div>
                 <div class="intro-block end">
                     <img
                         class="intro-block2-image"
-                        src="./images/image00002.jpeg"
+                        src="/images/image00002.jpeg"
                         alt="ziege"
                     />
                     <div class="intro-headline">
@@ -122,7 +122,7 @@
                     </div>
                     <img
                         class="intro-block2-edelweiss"
-                        src="./images/edelweiss.png"
+                        src="/images/edelweiss.png"
                         alt="edelweiss"
                     />
                 </div>
@@ -175,7 +175,7 @@
 
     .mountains {
         position: absolute;
-        background-image: url("./images/mountains.png"); /* GITHUB ASSETS CHANGE */
+        background-image: url("/images/mountains.png"); /* GITHUB ASSETS CHANGE */
         background-position: center center;
         width: 100%;
         height: 200px;
