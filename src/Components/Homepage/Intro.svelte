@@ -175,7 +175,7 @@
 
     .mountains {
         position: absolute;
-        background-image: url("./mountains.png"); /* GITHUB ASSETS CHANGE */
+        background-image: url("./assets/mountains.png"); /* GITHUB ASSETS CHANGE */
         background-position: center center;
         width: 100%;
         height: 200px;
