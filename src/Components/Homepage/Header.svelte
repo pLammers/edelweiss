@@ -6,7 +6,7 @@
 <div class="header-container">
     <div class="header-menu">
         <h1 class="header-menu-left">
-            <img src="./assets/wholelogo_horizontal.png" alt="logo" />
+            <img src="./images/wholelogo_horizontal.png" alt="logo" />
         </h1>
         <!-- <div class="header-menu-right">
             <span class="header-menu-item">SALON</span>
@@ -38,7 +38,7 @@
         max-width: 100%;
         text-align: center;
 
-        background-image: url("./assets/header_bg.png"); /* GITHUB ASSETS CHANGE */
+        background-image: url("./images/header_bg.png"); /* GITHUB ASSETS CHANGE */
         height: 900px;
         background-repeat: no-repeat;
         background-position: center center;

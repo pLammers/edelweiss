@@ -7,7 +7,7 @@
 
     <div class="footer-wrapper">
         <div class="footer-contact-information">
-            <img class="logo" src="./assets/logo.png" alt="logo" />
+            <img class="logo" src="./images/logo.png" alt="logo" />
 
             <div class="text-header">Inhaberin:</div>
             <div class="text-content">Marion Kabus</div>
@@ -71,7 +71,7 @@
         padding-right: 50px;
         max-width: 100%;
 
-        background-image: url("./assets/mountains.png"); /* GITHUB ASSETS CHANGE */
+        background-image: url("./images/mountains.png"); /* GITHUB ASSETS CHANGE */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
