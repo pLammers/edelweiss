@@ -84,3 +84,10 @@ h3 {
   src: url('./fonts/Signika-Bold.ttf');
   src: url('./fonts/Signika-Bold.ttf') format('truetype');
 }
+
+@font-face {
+  font-weight: 400;
+  font-family: "Wreath";
+  src: url('./fonts/wreath_medium.otf');
+  src: url('./fonts/wreath_medium.otf') format("opentype");
+}

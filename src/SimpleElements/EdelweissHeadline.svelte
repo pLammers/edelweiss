@@ -2,7 +2,7 @@
     export let showLogo = false;
 </script>
 
-<div class="edelweiss-headline-container">
+<h1 class="edelweiss-headline-container">
     {#if showLogo}
         <img
             class="edelweiss-headline-logo"
@@ -12,7 +12,7 @@
     {/if}
     <div class="edelweiss-headline-upper">Hundesalon</div>
     <div class="edelweiss-headline-lower">EDELWEISS</div>
-</div>
+</h1>
 
 <style>
     .edelweiss-headline-container {

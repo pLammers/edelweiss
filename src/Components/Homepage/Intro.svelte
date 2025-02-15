@@ -59,10 +59,7 @@
                 ihre Fellnasen anbiete.
             </div>
         </div>
-        <Teaser
-            text1="ES GIBT NUR EINEN EINZIGEN, DEN KLÜGSTEN UND SCHÖNSTEN HUND"
-            text2="AUF DER WELT - UND JEDER BESITZT GENAU DIESEN!"
-            backgroundUrl="/images/waterhose_dog.png"
+        <Teaser backgroundUrl="/images/banner_mobile_schnoodle_spruch.png"
         ></Teaser>
         <div class="intro-footer">
             <div class="intro-text h-color-pink">
@@ -170,6 +167,8 @@
             padding: 0;
             height: auto;
             padding-bottom: 35px;
+            background-image: url("/images/desktop_background_edelweiss-icon.png");
+            background-size: contain;
         }
     }
 
@@ -184,9 +183,9 @@
 
         @media only screen and (max-width: 1200px) {
             height: 163px;
-        background-position: center center;
-        background-size: cover;
-        top: -163px;
+            background-position: center center;
+            background-size: cover;
+            top: -163px;
             width: 100%;
             left: 0;
             background-repeat: no-repeat;

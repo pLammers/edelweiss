@@ -1,5 +1,6 @@
 <script>
     import Map from "../Map.svelte";
+    import { isMobile } from "../../Helper";
 </script>
 
 <div class="footer-container">
@@ -16,10 +17,18 @@
 
             <div class="text-header">Termin buchen:</div>
             <div class="text-content">
-                <img class="icon" src="./assets/icons/phone.png" alt="phone" /> 015120777965
+                <img class="icon" src="./assets/icons/phone.png" alt="phone" />
+                {#if isMobile()}
+                    <a href="tel:015120777965">015120777965</a>
+                {:else}
+                    015120777965
+                {/if}
             </div>
             <div class="text-content">
-                <img class="icon" src="./assets/icons/mail.png" alt="mail" /> <a href="mailto:info@hundesalon-edelweiss.de" target="_self">info@hundesalon-edelweiss.de</a>
+                <img class="icon" src="./assets/icons/mail.png" alt="mail" />
+                <a href="mailto:info@hundesalon-edelweiss.de" target="_self"
+                    >info@hundesalon-edelweiss.de</a
+                >
             </div>
             <div class="text-content">
                 <img
@@ -35,11 +44,6 @@
             </div>
 
             <br />
-
-            <div class="text-header">Termin buchen:</div>
-            <div class="text-content">• &nbsp;Täglich telefonisch</div>
-            <div class="text-content">• &nbsp;WhatsApp</div>
-            <div class="text-content">• &nbsp;E-Mail</div>
         </div>
 
         <div class="footer-location">

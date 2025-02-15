@@ -5,9 +5,9 @@
 
 <div class="header-container">
     <div class="header-menu">
-        <h1 class="header-menu-left">
+        <div class="header-menu-left">
             <img src="/images/wholelogo_horizontal.png" alt="logo" />
-        </h1>
+        </div>
         <!-- <div class="header-menu-right">
             <span class="header-menu-item">SALON</span>
             <span class="header-menu-item">SERVICES</span>
