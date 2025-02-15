@@ -38,7 +38,7 @@
         max-width: 100%;
         text-align: center;
 
-        background-image: url("/images/header_bg.png"); /* GITHUB ASSETS CHANGE */
+        background-image: url("/images/header_bg.webp"); /* GITHUB ASSETS CHANGE */
         height: 900px;
         background-repeat: no-repeat;
         background-position: center center;

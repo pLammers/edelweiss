@@ -26,7 +26,7 @@
             <div class="absolute-container" style="height: 92vw">
                 <img
                     class="intro-block1-image"
-                    src="/images/image00002_shortformat.png"
+                    src="/images/image00002_shortformat.webp"
                     alt="ziege"
                 />
                 <div
@@ -48,7 +48,7 @@
             <div class="absolute-container">
                 <img
                     class="intro-block2-image"
-                    src="/images/ziegen2.jpeg"
+                    src="/images/ziegen2.webp"
                     alt="ziege"
                 />
             </div>
@@ -59,7 +59,7 @@
                 ihre Fellnasen anbiete.
             </div>
         </div>
-        <Teaser backgroundUrl="/images/banner_mobile_schnoodle_spruch.png"
+        <Teaser backgroundUrl="/images/banner_mobile_schnoodle_spruch.webp"
         ></Teaser>
         <div class="intro-footer">
             <div class="intro-text h-color-pink">
@@ -98,14 +98,14 @@
                     </div>
                     <img
                         class="intro-block1-image"
-                        src="/images/ziegen1.png"
+                        src="/images/ziegen1.webp"
                         alt="ziege"
                     />
                 </div>
                 <div class="intro-block end">
                     <img
                         class="intro-block2-image"
-                        src="/images/image00002.jpeg"
+                        src="/images/image00002.webp"
                         alt="ziege"
                     />
                     <div class="intro-headline">
