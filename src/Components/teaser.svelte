@@ -26,15 +26,21 @@
         background-color: rgba(1, 1, 1, 0.3);
         background-blend-mode: darken;
 
-        @media only screen and (max-width: 1200px) {
+        @media only screen and (max-width: 1300px) {
+            display: none;
+        }
+
+        @media only screen and (max-width: 450px) {
             line-height: 24px;
             padding: 25px;
             text-align: center;
             font-size: 1.6rem;
+            display: flex;
         }
 
         @media only screen and (max-width: 410px) {
             height: 220px;
+            display:flex;
         }
     }
 </style>
