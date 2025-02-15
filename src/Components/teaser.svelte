@@ -32,5 +32,9 @@
             text-align: center;
             font-size: 1.6rem;
         }
+
+        @media only screen and (max-width: 410px) {
+            height: 220px;
+        }
     }
 </style>
