@@ -103,7 +103,7 @@
         font-size: 6rem;
         font-weight: bold;
         padding: 55px;
-        padding-bottom: 60px;
+        padding-bottom: 70px;
 
         @media only screen and (max-width: 1200px) {
             padding: 25px;

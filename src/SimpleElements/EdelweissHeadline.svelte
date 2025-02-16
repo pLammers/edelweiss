@@ -24,11 +24,13 @@
         width: 100px;
     }
     .edelweiss-headline-upper {
+        font-family: "Wreath";
         color: #331223;
-        font-size: 6.5rem;
+        font-size: 8rem;
     }
     .edelweiss-headline-lower {
         color: white;
+        font-weight:400;
         font-size: 4.7rem;
     }
 </style>

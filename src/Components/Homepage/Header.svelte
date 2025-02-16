@@ -18,7 +18,7 @@
     </div>
     <div class="header-center">
         <div>Dein Hund ist wieder</div>
-        <div style="font-weight: bolder;">"fellig"?</div>
+        <span style="font-family: Wreath;font-size:80px">"fellig"?</span>
     </div>
     <div class="header-bottom">
         <div>Dann ab zum Hundesalon Edelweiss in Bad König-Zell!</div>

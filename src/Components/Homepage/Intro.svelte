@@ -14,7 +14,7 @@
         <div class="intro-content">
             <div class="mountains"></div>
             <div class="h-font-size-l slogan">
-                Dein Hund ist wieder "fellig"?
+                Dein Hund ist wieder <span style="font-family: Wreath;font-size:43px">"fellig"?</span>
             </div>
             <div class="h-font-size-l">
                 <div style="color: black">Dann ab zum</div>
