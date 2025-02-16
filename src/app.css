@@ -69,27 +69,27 @@ h3 {
 @font-face {
   font-weight: 300;
   font-family: "Signika";
-  src: url('./assets/fonts/Signika-Light.ttf');
-  src: url('./assets/fonts/Signika-Light.ttf') format('truetype');
+  src: url('./fonts/Signika-Light.ttf');
+  src: url('./fonts/Signika-Light.ttf') format('truetype');
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Signika";
-  src: url('./assets/fonts/Signika-Regular.ttf');
-  src: url('./assets/fonts/Signika-Regular.ttf') format('truetype');
+  src: url('./fonts/Signika-Regular.ttf');
+  src: url('./fonts/Signika-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Signika";
-  src: url('./assets/fonts/Signika-Bold.ttf');
-  src: url('./assets/fonts/Signika-Bold.ttf') format('truetype');
+  src: url('./fonts/Signika-Bold.ttf');
+  src: url('./fonts/Signika-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Wreath";
-  src: url('./assets/fonts/wreath_medium.otf');
-  src: url('./assets/fonts/wreath_medium.otf') format("opentype");
+  src: url('./fonts/wreath_medium.otf');
+  src: url('./fonts/wreath_medium.otf') format("opentype");
 }
