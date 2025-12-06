@@ -30,7 +30,7 @@
     }
 </script>
 
-<BasePopup show={showPopup} onClose={closePopup} title="Neu in unserem Shop!">
+<BasePopup show={showPopup} onClose={closePopup}>
     <div class="popup-badge">NEU</div>
     
     <div class="popup-image">
@@ -134,7 +134,7 @@
     .feature {
         color: #333;
         font-size: 1rem;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
         padding-left: 5px;
     }
     
@@ -186,65 +186,108 @@
     @media only screen and (max-width: 768px) {
         .popup-image {
             max-width: 100%;
-            padding: 30px 20px 20px 20px;
+            padding: 20px 20px 15px 20px;
         }
         
         .popup-image img {
-            max-height: 300px;
+            max-height: 280px;
         }
         
         .popup-text {
-            padding: 30px 20px;
+            padding: 20px 25px 25px 25px;
+        }
+        
+        .popup-text h2 {
+            font-size: 1.65rem;
+            margin-bottom: 8px;
+        }
+        
+        .popup-text h3 {
+            font-size: 1.4rem;
+            margin-bottom: 4px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            margin-bottom: 18px;
+        }
+        
+        .features {
+            margin-bottom: 18px;
+        }
+        
+        .feature {
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+        }
+        
+        .price {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            padding: 15px 28px;
+            font-size: 1.05rem;
+            margin-bottom: 12px;
+        }
+        
+        .secondary-button {
+            font-size: 1rem;
+        }
+        
+        .popup-badge {
+            top: 12px;
+            left: 12px;
+            font-size: 13px;
+            padding: 7px 14px;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .popup-image {
+            padding: 18px 15px 12px 15px;
+        }
+        
+        .popup-image img {
+            max-height: 250px;
+        }
+        
+        .popup-text {
+            padding: 18px 20px 22px 20px;
         }
         
         .popup-text h2 {
             font-size: 1.5rem;
+            margin-bottom: 6px;
         }
         
         .popup-text h3 {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
         }
         
         .subtitle {
-            font-size: 1rem;
+            font-size: 1.05rem;
+            margin-bottom: 15px;
+        }
+        
+        .features {
+            margin-bottom: 15px;
         }
         
         .feature {
-            font-size: 0.9rem;
+            font-size: 1rem;
+            margin-bottom: 5px;
         }
         
         .price {
-            font-size: 1.5rem;
+            font-size: 1.7rem;
+            margin-bottom: 18px;
         }
         
         .cta-button {
             padding: 14px 24px;
             font-size: 1rem;
-        }
-        
-        .popup-badge {
-            top: 15px;
-            left: 15px;
-            font-size: 12px;
-            padding: 6px 12px;
-        }
-    }
-    
-    @media only screen and (max-width: 480px) {
-        .popup-text h2 {
-            font-size: 1.3rem;
-        }
-        
-        .popup-text h3 {
-            font-size: 1.1rem;
-        }
-        
-        .popup-text {
-            padding: 25px 15px;
-        }
-        
-        .popup-image {
-            padding: 25px 15px 15px 15px;
         }
     }
 </style>
