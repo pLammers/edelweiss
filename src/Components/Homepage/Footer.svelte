@@ -1,6 +1,6 @@
 <script>
     import Map from "../Map.svelte";
-    import { isMobile } from "../../Helper";
+    import { isMobile, navigateToPrivacy } from "../../Helper";
 </script>
 
 <div class="footer-container">
@@ -54,6 +54,12 @@
                 <Map></Map>
             </div>
         </div>
+    </div>
+    
+    <div class="footer-legal">
+        <button class="privacy-link" on:click={navigateToPrivacy}>
+            Datenschutzerklärung
+        </button>
     </div>
 </div>
 
@@ -151,5 +157,29 @@
 
     .icon {
         width: 15px;
+    }
+
+    .footer-legal {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .privacy-link {
+        background: none;
+        border: none;
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        transition: color 0.3s ease;
+        padding: 0;
+        font-family: inherit;
+    }
+
+    .privacy-link:hover {
+        color: white;
+        text-decoration: underline;
     }
 </style>
