@@ -2,6 +2,7 @@
     import { onMount } from 'svelte';
     import Homepage from './Homepage.svelte';
     import PrivacyPolicy from './Components/PrivacyPolicy.svelte';
+    import PopupManager from './Components/Popups/PopupManager.svelte';
     import { getCurrentRoute } from './Helper';
 
     let currentRoute = 'home';
@@ -22,6 +23,8 @@
         };
     });
 </script>
+
+<PopupManager />
 
 {#if currentRoute === 'home'}
     <Homepage />
