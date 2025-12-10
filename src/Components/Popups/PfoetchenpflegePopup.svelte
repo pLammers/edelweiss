@@ -4,25 +4,48 @@
     
     const STORAGE_KEY = 'edelweiss_pfotenbalsam_popup_shown';
     const EBAY_LINK = 'https://www.ebay.de/itm/317599419328';
+    const DAYS_UNTIL_RESHOW = 7;
     
     let showPopup = false;
     
     onMount(() => {
-        // Check if popup was already shown
-        const popupShown = localStorage.getItem(STORAGE_KEY);
+        // Check if popup should be shown
+        const popupData = localStorage.getItem(STORAGE_KEY);
         
-        if (!popupShown) {
-            // Wait a bit before showing popup for better UX
+        if (popupData) {
+            try {
+                const { timestamp } = JSON.parse(popupData);
+                const now = Date.now();
+                const daysSinceShown = (now - timestamp) / (1000 * 60 * 60 * 24);
+                
+                // Show popup again if more than DAYS_UNTIL_RESHOW days have passed
+                if (daysSinceShown >= DAYS_UNTIL_RESHOW) {
+                    setTimeout(() => {
+                        showPopup = true;
+                    }, 500);
+                }
+            } catch (e) {
+                // If parsing fails, show popup (old format or corrupted data)
+                setTimeout(() => {
+                    showPopup = true;
+                }, 500);
+            }
+        } else {
+            // First time visitor - show popup
             setTimeout(() => {
                 showPopup = true;
-            }, 1000);
+            }, 500);
         }
     });
     
     function closePopup() {
         showPopup = false;
-        // Remember that popup was shown
-        localStorage.setItem(STORAGE_KEY, 'true');
+        // Store timestamp when popup was closed
+        const data = {
+            timestamp: Date.now(),
+            closedAt: new Date().toISOString()
+        };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
     }
     
     function handleBuyClick() {

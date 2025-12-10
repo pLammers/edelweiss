@@ -55,7 +55,7 @@ import NeuesProduktPopup from './NeuesProduktPopup.svelte';
 
 ## Features
 
-- ✅ **LocalStorage**: Popup wird nur einmal pro Browser angezeigt
+- ✅ **LocalStorage**: Popup wird mit Zeitstempel gespeichert und nach 7 Tagen erneut angezeigt
 - ✅ **Escape-Taste**: Schließt das Popup
 - ✅ **Backdrop-Click**: Klick außerhalb schließt das Popup
 - ✅ **Accessibility**: ARIA-Labels und Keyboard-Navigation
@@ -71,5 +71,7 @@ import NeuesProduktPopup from './NeuesProduktPopup.svelte';
 
 Jedes Popup sollte einen eindeutigen Storage-Key verwenden:
 - `edelweiss_pfotenbalsam_popup_shown` - Pfötchenpflege-Popup
+  - Speichert: `{ timestamp: number, closedAt: string }`
+  - Wird nach 7 Tagen erneut angezeigt
 - Weitere Keys hier dokumentieren...
 
